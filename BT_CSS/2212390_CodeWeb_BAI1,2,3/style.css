@@ -1,0 +1,26 @@
+body{
+    
+    background-color: rgb(255, 211, 68);
+    font-size: 10px;
+}
+
+h1{
+    color: red;
+    color: pink;
+    color:coral;
+    font-size: 50px;
+    margin-left: 2em;
+    
+}
+h2{        
+    color:coral;
+    font-size: 25px;
+    margin-left:2em ;
+}
+h3{font-size: 3rem;}
+.doimau:hover{
+    color: rgb(216, 25, 190);
+}
+*{
+    padding: 3px;
+}

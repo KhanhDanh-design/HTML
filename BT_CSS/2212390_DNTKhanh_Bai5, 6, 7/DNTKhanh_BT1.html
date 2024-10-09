@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Phông chữ (font) - Web fonts</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+        <style> 
+            html{font-size:100%}
+
+            body{font-size:25px; color: gray;}
+            .p1{font-family:  Arial, Helvetica, sans-serif}
+            .p2{font-family:'Times New Roman', Times, serif;}
+            .p3{font-family: 'Courier New', Courier, monospace;}
+            .P4{font-family: 'Apple Chancery', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+            .p5{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+            .p6{font-family: "Dongle", sans-serif;}
+        /*Cỡ chữ m,ặc định là 16px = 100%*/
+            
+            .artical{font-size:75px}/*16px x 75% = 12px*/
+            .h1{font-size: 150%;}/*16px x 150%=18px*/
+
+            .weight{font-weight: bold;}
+
+            .style{font-style: italic;} /*italic và oblique như nhau*/
+
+            .variant{font-variant: small-caps;}
+        </style>
+    </head>
+
+    <body>
+        <h1>Font chữ font-family</h1>
+        <p>Chữ không có chân hoặc nét liền sans-serif</p>
+        <p class="p1">Học về thiết kế.</p>
+        <p>Chữ có chân hoặc nét nhỏ thêm vào chữ serif</p>
+        <p class="p2">Học về thiết kế.</p>
+        <P>Chữ có khoảng trống bằng nhau monospace</P>
+        <p class="p3">Học về thiết kế.</p>
+        <p>Chữ viết tay cursive</p>
+        <p class="p4">Học về thiết kế.</p>
+        <p>Chữ dùng để thiết kế tạo tiêu đề fantasy</p>
+        <p class="p5">Học về thiết kế.</p>
+        <P>Dùng font web site để thiết kế</P>
+        <p class="p6">Học về thiết kế.</p>
+
+        <h1>Cỡ chữ font-size</h1>
+        <article class="artical"> <!--16px x 75% = 12px-->
+            <h1 class="h1">Tiêu đề</h1> <!-- 12px x 150% = 18px: Tính kế thừa-->
+        </article>
+
+        <h1>Độ đậm của chữ font-weight</h1>
+        <p class="weight">Độ đậm</p>
+
+        <h1> Chữ nghiên font-style</h1>
+        <P class="style">Chữ nghiên</P>
+
+        <h1>Chữ hoa đặc biệt font-variant</h1>
+        <p class="variant">Hahahaha </p>
+
+        <p>Có thể dùng font để rút gọn cho font-family, font-size, font-weight, font-style, font-variant</p>
+        <p>Vị trí của các font không được xáo trộn: font: style weight variant size/line-height font-family</p>
+        <p style="font: italic bold 1.5em verdana, sans-serif">Đây là ví dụ</p>
+    </body>
+    
+</html>

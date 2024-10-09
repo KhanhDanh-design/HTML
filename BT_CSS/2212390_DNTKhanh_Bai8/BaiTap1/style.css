@@ -1,0 +1,23 @@
+/*{color: red;}*/
+/*h2{color: red;}
+body{background-color: turquoise;}
+/*.greencolor{color:green}
+#yellowcolor{color: yellow;}
+*/
+
+/*[class]{color:violet}
+/*h3, p,#yellowcolor{color:blue}
+
+/*li em{color:red}
+h2 em, h3 em{color: red;}
+
+
+li h3{color:red}
+ p>em{color:red}
+/*ul+h2{color:red}*/ /*Phần tử anh em anh nằm bên trái em bên phải chỉ có phần tử em đầu tiên mới kế thừa*/
+/*ul~h2{color: red;}/*Phần tử anh em anh nằm bên trái em bên phải mọi phần tử em đều kế thừa phần tử anh*/
+
+p.violetcolor{color: red;}
+
+
+
