@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="Vi">
+    <head>
+        <title>Document</title>
+        <meta charset="utf-8">
+        <style>
+            a{text-decoration: none;}
+            a:link{color:#8a2be2}        
+            a:active{color:crimson;background-color: #ffd9d9;}      
+            a:visited{color: chartreuse;}
+            a:hover{color: blue}
+
+            li:first-child{color: aqua;}
+
+            input:checked+label{color: hotpink;}
+            input[type="checkbox"]:checked{box-shadow: 0 0 0 3px red;}
+            p#LamNoi::first-letter{color:#8a2be2;border-radius: 2px;box-shadow: 3px 3px 0 yellow;}/*Làm nổi kí tự đầu tiên*/
+
+            p::before{content:"Đọc thêm " ;}
+            p::after{content: " Kết thúc";}
+        </style>
+    </head>
+
+    <body>
+        <a href="https://www.youtube.com/">Link youtube</a>
+
+        <ul>
+            <li>HTML</li>    
+            <li>CSS</li>    
+            <li>JS</li>    
+            <li>React</li>    
+        </ul>
+
+        <input type="checkbox" name="My-checkbox" id="opt-in">
+        <label for="opt-in">Chọn</label>
+
+        <p id="LamNoi">Ví dụ, chúng ta sẽ làm nổi chữ cái đầu tiên của một đoạn </p>
+    </body>
+</html>
