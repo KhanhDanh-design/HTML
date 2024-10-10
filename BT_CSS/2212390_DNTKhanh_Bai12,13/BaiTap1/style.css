@@ -1,0 +1,15 @@
+body{
+    background-image: url(star.png);      
+    background-repeat: no-repeat;
+}
+blockquote{
+    background-image: url(dot.png) ;
+    padding: 2em;
+    border: 4px dashed;
+    background-repeat: round;
+}
+
+p{
+    width: 300px; height: 100px; padding: 20px;
+    background-image: radial-gradient(circle ,yellow 50%, green);
+}
